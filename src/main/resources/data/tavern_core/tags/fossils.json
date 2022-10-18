@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tavern_core:shark_tooth",
+    "tavern_core:ammonite",
+    "tavern_core:anomalocaris",
+    "tavern_core:arcehlon_body",
+    "tavern_core:arcehlon_skull",
+    "tavern_core:dunkleosteus_body"
+  ]
+}
