@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "tavern_core:platinum_block",
+    "tavern_core:engraved_platinum_block",
+    "tavern_core:plated_gold_block",
+    "tavern_core:plated_copper_block",
+    "tavern_core:polished_calcite_block",
+    "tavern_core:polished_amethyst_block",
+    "tavern_core:brilliant_amethyst_block",
+    "tavern_core:shining_pearl_block",
+    "tavern_core:polished_emerald_block",
+    "tavern_core:polished_lapis_block",
+    "tavern_core:polished_redstone_block",
+    "tavern_core:blue_ice_bricks",
+    "tavern_core:blue_ice_pillar",
+    "tavern_core:packed_ice_bricks",
+    "tavern_core:packed_ice_pillar",
+    "tavern_core:icey_deepslate",
+    "tavern_core:frosted_cobblestone"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:engraved_platinum_block"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:platinum_ingot",
+    "count": 9
+  }
+}

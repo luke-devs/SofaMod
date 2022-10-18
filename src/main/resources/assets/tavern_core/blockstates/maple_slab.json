@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tavern_core:block/maple_slab"
+    },
+    "type=double": {
+      "model": "tavern_core:block/maple_planks"
+    },
+    "type=top": {
+      "model": "tavern_core:block/maple_slab_top"
+    }
+  }
+}

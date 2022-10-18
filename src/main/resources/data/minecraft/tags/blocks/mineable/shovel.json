@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tavern_core:packed_snow",
+    "tavern_core:packed_snow_bricks",
+    "tavern_core:packed_snow_pillar"
+  ]
+}

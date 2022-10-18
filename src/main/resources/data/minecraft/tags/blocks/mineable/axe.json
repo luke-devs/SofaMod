@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tavern_core:maple_planks",
+    "tavern_core:carved_maple_planks",
+    "tavern_core:maple_slab",
+    "tavern_core:maple_log",
+    "tavern_core:stripped_maple_log",
+    "tavern_core:maple_wood",
+    "tavern_core:stripped_maple_wood",
+    "tavern_core:maple_stairs",
+    "tavern_core:maple_fence",
+    "tavern_core:maple_fence_gate"
+  ]
+}

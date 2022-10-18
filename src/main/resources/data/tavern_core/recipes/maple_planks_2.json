@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:stripped_maple_log"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:maple_planks",
+    "count": 4
+  }
+}
