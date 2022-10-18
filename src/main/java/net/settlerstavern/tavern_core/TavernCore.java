@@ -1,12 +1,13 @@
 package net.settlerstavern.tavern_core;
 
+import net.minecraft.util.registry.Registry;
 import net.settlerstavern.tavern_core.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
-import net.settlerstavern.tavern_core.item.ModItemTags;
 import net.settlerstavern.tavern_core.item.ModItems;
 import net.settlerstavern.tavern_core.util.ModFlammableBlocks;
 import net.settlerstavern.tavern_core.util.ModStrippableBlocks;
+import net.settlerstavern.tavern_core.util.ModTags;
 import net.settlerstavern.tavern_core.world.feature.ModConfiguredFeatures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +25,6 @@ public class TavernCore implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		ModItemTags.registerModItemTags();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBlocks_Trees.registerModBlocks();
