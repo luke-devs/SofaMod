@@ -1,7 +1,5 @@
 package net.settlerstavern.tavern_core.util;
 
-
-import com.mojang.datafixers.types.templates.Tag;
 import net.minecraft.item.Item;
 import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
