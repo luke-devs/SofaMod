@@ -68,7 +68,7 @@ public class ModItems {
             new FossilItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
 
     public static final Item TRILOBITE = registerItem("fossils/trilobite",
-            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+            new FossilItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TavernCore.MOD_ID, name), item);
