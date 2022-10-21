@@ -10,6 +10,12 @@
     "tavern_core:stripped_maple_wood",
     "tavern_core:maple_stairs",
     "tavern_core:maple_fence",
-    "tavern_core:maple_fence_gate"
+    "tavern_core:maple_fence_gate",
+    "tavern_core:carved_sculk_mushroom_planks",
+    "tavern_core:sculk_mushroom_planks",
+    "tavern_core:sculk_mushroom_stairs",
+    "tavern_core:sculk_mushroom_slab",
+    "tavern_core:sculk_mushroom_fence",
+    "tavern_core:sculk_mushroom_fence_gate"
   ]
 }

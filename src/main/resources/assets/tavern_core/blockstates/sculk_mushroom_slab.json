@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tavern_core:block/sculk_mushroom_slab"
+    },
+    "type=double": {
+      "model": "tavern_core:block/sculk_mushroom_planks"
+    },
+    "type=top": {
+      "model": "tavern_core:block/sculk_mushroom_slab_top"
+    }
+  }
+}

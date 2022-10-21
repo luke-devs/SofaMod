@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "tavern_core:block/sculk_mushroom_membrane"
+  }
+}

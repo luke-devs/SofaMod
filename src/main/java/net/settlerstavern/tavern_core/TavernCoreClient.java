@@ -11,7 +11,11 @@ import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
 public class TavernCoreClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        //MAPLE
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.MAPLE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.MAPLE_SAPLING, RenderLayer.getCutout());
+
+        //SCULK MUSHROOM
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.SCULK_MUSHROOM, RenderLayer.getCutout());
     }
 }

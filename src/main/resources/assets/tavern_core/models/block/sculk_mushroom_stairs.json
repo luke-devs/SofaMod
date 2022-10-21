@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tavern_core:block/sculk_mushroom_planks",
+    "top": "tavern_core:block/sculk_mushroom_planks",
+    "side": "tavern_core:block/sculk_mushroom_planks"
+  }
+}

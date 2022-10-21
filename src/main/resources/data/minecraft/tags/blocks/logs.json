@@ -4,6 +4,10 @@
     "tavern_core:maple_log",
     "tavern_core:maple_wood",
     "tavern_core:stripped_maple_log",
-    "tavern_core:stripped_maple_wood"
+    "tavern_core:stripped_maple_wood",
+    "tavern_core:sculk_mushroom_log",
+    "tavern_core:sculk_mushroom_wood",
+    "tavern_core:stripped_sculk_mushroom_log",
+    "tavern_core:stripped_sculk_mushroom_wood"
   ]
 }
