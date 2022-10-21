@@ -11,7 +11,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.settlerstavern.tavern_core.TavernCore;
-import net.settlerstavern.tavern_core.block.custom.BeerMug;
+import net.settlerstavern.tavern_core.block.custom.DecorationBlock;
+import net.settlerstavern.tavern_core.block.custom.SofaBlock;
 import net.settlerstavern.tavern_core.item.ModItemGroup;
 
 
@@ -51,7 +52,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(5f).requiresTool()), ModItemGroup.SETTLERSTAVERN);
 
     public static final Block BEER_MUG = registerBlock("decor/beer_mug",
-            new BeerMug(FabricBlockSettings.of(Material.METAL).nonOpaque().collidable(false).breakInstantly()), ModItemGroup.SETTLERSTAVERN_DECOR);
+            new DecorationBlock(FabricBlockSettings.of(Material.METAL).nonOpaque().noCollision().breakInstantly()), ModItemGroup.SETTLERSTAVERN_DECOR);
+
+    public static final Block GREEN_SOFA = registerBlock("decor/green_sofa",
+            new SofaBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque().noCollision().breakInstantly()), ModItemGroup.SETTLERSTAVERN_DECOR);
 
     public static final Block BLUE_ICE_BRICKS = registerBlock("blue_ice_bricks",
             new Block(FabricBlockSettings.of(Material.ICE).strength(2.8f).requiresTool().slipperiness(0.989f)

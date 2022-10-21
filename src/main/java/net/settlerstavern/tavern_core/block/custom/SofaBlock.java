@@ -11,11 +11,10 @@ import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
 import org.jetbrains.annotations.Nullable;
 
-public class BeerMug extends HorizontalFacingBlock {
-
+public class SofaBlock extends HorizontalFacingBlock {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public BeerMug(Settings settings){
+    public SofaBlock(Settings settings) {
         super(settings);
     }
 
@@ -26,17 +25,17 @@ public class BeerMug extends HorizontalFacingBlock {
     }
 
     @Override
-    public BlockState rotate(BlockState state, BlockRotation rotation){
+    public BlockState rotate(BlockState state, BlockRotation rotation) {
         return state.with(FACING, rotation.rotate(state.get(FACING)));
     }
 
     @Override
-    public BlockState mirror(BlockState state, BlockMirror mirror){
+    public BlockState mirror(BlockState state, BlockMirror mirror) {
         return state.rotate(mirror.getRotation(state.get(FACING)));
     }
 
     @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder){
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
 }

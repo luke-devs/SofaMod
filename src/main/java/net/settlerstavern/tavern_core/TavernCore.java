@@ -33,9 +33,7 @@ public class TavernCore implements ModInitializer {
 		ModBlocks_Trees.registerModBlocks();
 		ModFlammableBlocks.registerFlammableBlocks();
 		ModStrippableBlocks.registerStrippables();
-
 		Optional<RegistryEntryList.Named<Item>> tagList = Registry.ITEM.getEntryList(ModTags.Items.FOSSILS);
-		System.out.println("Tag list items: " + tagList);
 	}
 
 }

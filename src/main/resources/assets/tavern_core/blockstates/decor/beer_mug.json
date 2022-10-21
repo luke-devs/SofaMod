@@ -1,19 +1,36 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "tavern_core:block/decor/beer_mug"
+    "rotation_half=0": {
+      "model": "tavern_core:block/decor/beer_mug",
+      "y": 0
     },
-    "facing=south": {
+    "rotation_half=1": {
+      "model": "tavern_core:block/decor/beer_mug_rotated",
+      "y": 90
+    },
+    "rotation_half=3": {
+      "model": "tavern_core:block/decor/beer_mug_rotated",
+      "y": 180
+    },
+    "rotation_half=5": {
+      "model": "tavern_core:block/decor/beer_mug_rotated",
+      "y": 270
+    },
+    "rotation_half=2": {
+      "model": "tavern_core:block/decor/beer_mug",
+      "y": 90
+    },
+    "rotation_half=4": {
       "model": "tavern_core:block/decor/beer_mug",
       "y": 180
     },
-    "facing=west": {
+    "rotation_half=6": {
       "model": "tavern_core:block/decor/beer_mug",
-      "y": 270
+      "y": -90
     },
-    "facing=east": {
-      "model": "tavern_core:block/decor/beer_mug",
-      "y": 90
+    "rotation_half=7": {
+      "model": "tavern_core:block/decor/beer_mug_rotated",
+      "y": 0
     }
   }
 }
