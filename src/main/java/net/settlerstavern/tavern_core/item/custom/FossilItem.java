@@ -18,7 +18,8 @@ public class FossilItem extends Item {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         if (stack.getNbt() != null) {
-            tooltip.add(Text.of(stack.getNbt().get("rarity").asString().formatted(Formatting.GOLD)));
+            String rarity = stack.getNbt().get("rarity").toString();
+            tooltip.add(Text.translatable("item.fossil." + rarity));
         }
         super.appendTooltip(stack, world, tooltip, context);
     }
