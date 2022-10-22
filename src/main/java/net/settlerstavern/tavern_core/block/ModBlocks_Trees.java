@@ -9,6 +9,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.settlerstavern.entity.ModSignTypes;
 import net.settlerstavern.tavern_core.TavernCore;
 import net.settlerstavern.tavern_core.block.custom.ModStairsBlock;
 import net.settlerstavern.tavern_core.item.ModItemGroup;
@@ -52,6 +53,12 @@ public class ModBlocks_Trees {
     public static final Block MAPLE_LEAVES = registerBlock("maple_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.SETTLERSTAVERN_TREES);
 
+    public static final Block MAPLE_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("maple_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.MAPLE), ModItemGroup.SETTLERSTAVERN_TREES);
+
+    public static final Block MAPLE_SIGN_BLOCK = registerBlockWithoutBlockItem("maple_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.MAPLE), ModItemGroup.SETTLERSTAVERN_TREES);
+
     public static final Block MAPLE_SAPLING = registerBlock("maple_sapling",
             new SaplingBlock(new MapleSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -94,6 +101,12 @@ public class ModBlocks_Trees {
             new SaplingBlock(new SculkMushroomGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING).sounds(BlockSoundGroup.SCULK_VEIN)), ModItemGroup.SETTLERSTAVERN_TREES);
 
+    public static final Block SCULK_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("sculk_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN).sounds(BlockSoundGroup.SCULK_CATALYST), ModSignTypes.SCULK), ModItemGroup.SETTLERSTAVERN_TREES);
+
+    public static final Block SCULK_SIGN_BLOCK = registerBlockWithoutBlockItem("sculk_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN).sounds(BlockSoundGroup.SCULK_CATALYST), ModSignTypes.SCULK), ModItemGroup.SETTLERSTAVERN_TREES);
+
     //WILLOW
     public static final Block WILLOW_LOG = registerBlock("willow_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -128,10 +141,20 @@ public class ModBlocks_Trees {
     public static final Block WILLOW_LEAVES = registerBlock("willow_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.SETTLERSTAVERN_TREES);
 
+    public static final Block WILLOW_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("willow_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.WILLOW), ModItemGroup.SETTLERSTAVERN_TREES);
+
+    public static final Block WILLOW_SIGN_BLOCK = registerBlockWithoutBlockItem("willow_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.WILLOW), ModItemGroup.SETTLERSTAVERN_TREES);
+
     public static final Block WILLOW_SAPLING = registerBlock("willow_sapling",
             new SaplingBlock(new MapleSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.SETTLERSTAVERN_TREES);
 
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
+        return Registry.register(Registry.BLOCK, new Identifier(TavernCore.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);

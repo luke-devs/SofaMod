@@ -6,6 +6,18 @@
     "tavern_core:fossils/anomalocaris",
     "tavern_core:fossils/arcehlon_body",
     "tavern_core:fossils/arcehlon_skull",
-    "tavern_core:fossils/dunkleosteus_body"
+    "tavern_core:fossils/dunkleosteus_body",
+    "tavern_core:fossils/dunkleosteus_skull",
+    "tavern_core:fossils/dunkleosteus_tail",
+    "tavern_core:fossils/eusthenopteron",
+    "tavern_core:fossils/ophthalmosaurus_body",
+    "tavern_core:fossils/ophthalmosaurus_skull",
+    "tavern_core:fossils/ophthalmosaurus_tail",
+    "tavern_core:fossils/plesiosaurus_body",
+    "tavern_core:fossils/plesiosaurus_neck",
+    "tavern_core:fossils/plesiosaurus_skull",
+    "tavern_core:fossils/plesiosaurus_tail",
+    "tavern_core:fossils/shark_tooth",
+    "tavern_core:fossils/trilobite"
   ]
 }

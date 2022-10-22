@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "PGP",
+    "#P#"
+  ],
+  "key": {
+    "#": {
+      "item": "tavern_core:maple_planks"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "tavern_core:maple_lantern",
+    "count": 1
+  }
+}
