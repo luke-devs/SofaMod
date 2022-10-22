@@ -4,6 +4,7 @@ import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -16,9 +17,8 @@ public class FossilItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if (stack.getNbt() != null){
-            tooltip.add(Text.of(stack.getNbt().get("rarity").asString()));
-            System.out.println("Adding rarity to NBT of item stack");
+        if (stack.getNbt() != null) {
+            tooltip.add(Text.of(stack.getNbt().get("rarity").asString().formatted(Formatting.GOLD)));
         }
         super.appendTooltip(stack, world, tooltip, context);
     }
