@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tavern_core:block/willow_slab"
+    },
+    "type=double": {
+      "model": "tavern_core:block/willow_planks"
+    },
+    "type=top": {
+      "model": "tavern_core:block/willow_slab_top"
+    }
+  }
+}

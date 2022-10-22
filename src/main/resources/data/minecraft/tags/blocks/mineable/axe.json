@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "tavern_core:silverbell_lantern",
+    "tavern_core:eucalyptus_lantern",
+    "tavern_core:cherry_blossom_lantern",
+    "tavern_core:sculk_mushroom_lantern",
+    "tavern_core:maple_lantern",
     "tavern_core:maple_planks",
     "tavern_core:carved_maple_planks",
     "tavern_core:maple_slab",
@@ -16,6 +21,17 @@
     "tavern_core:sculk_mushroom_stairs",
     "tavern_core:sculk_mushroom_slab",
     "tavern_core:sculk_mushroom_fence",
-    "tavern_core:sculk_mushroom_fence_gate"
+    "tavern_core:sculk_mushroom_fence_gate",
+    "tavern_core:willow_lantern",
+    "tavern_core:willow_planks",
+    "tavern_core:carved_willow_planks",
+    "tavern_core:willow_slab",
+    "tavern_core:willow_log",
+    "tavern_core:stripped_willow_log",
+    "tavern_core:willow_wood",
+    "tavern_core:stripped_willow_wood",
+    "tavern_core:willow_stairs",
+    "tavern_core:willow_fence",
+    "tavern_core:willow_fence_gate"
   ]
 }

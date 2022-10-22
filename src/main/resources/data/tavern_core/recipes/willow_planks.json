@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:willow_log"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:willow_planks",
+    "count": 4
+  }
+}

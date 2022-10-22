@@ -9,6 +9,10 @@ public class ModStrippableBlocks {
         StrippableBlockRegistry.register(ModBlocks_Trees.MAPLE_LOG, ModBlocks_Trees.STRIPPED_MAPLE_LOG);
         StrippableBlockRegistry.register(ModBlocks_Trees.MAPLE_WOOD, ModBlocks_Trees.STRIPPED_MAPLE_WOOD);
 
+        //WILLOW
+        StrippableBlockRegistry.register(ModBlocks_Trees.WILLOW_LOG, ModBlocks_Trees.STRIPPED_WILLOW_LOG);
+        StrippableBlockRegistry.register(ModBlocks_Trees.WILLOW_WOOD, ModBlocks_Trees.STRIPPED_WILLOW_WOOD);
+
         //SCULK
         StrippableBlockRegistry.register(ModBlocks_Trees.SCULK_MUSHROOM_LOG, ModBlocks_Trees.STRIPPED_SCULK_MUSHROOM_LOG);
         StrippableBlockRegistry.register(ModBlocks_Trees.SCULK_MUSHROOM_WOOD, ModBlocks_Trees.STRIPPED_SCULK_MUSHROOM_WOOD);

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "tavern_core:sculk_mushroom_log"
+    }
+  },
+  "result": {
+    "item": "tavern_core:sculk_mushroom_wood",
+    "count": 4
+  }
+}

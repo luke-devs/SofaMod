@@ -41,8 +41,7 @@
   "item.tavern_core.fossils.shark_tooth": "Shark Tooth",
   "item.tavern_core.fossils.trilobite": "Trilobite",
 
-
-
+  "item.tavern_core.maple_lantern": "Maple Lantern",
   "item.tavern_core.maple_log": "Maple Log",
   "item.tavern_core.maple_leaves": "Maple Leaves",
   "item.tavern_core.maple_planks": "Maple Planks",
@@ -82,6 +81,7 @@
   "block.tavern_core.maple_planks": "Maple Planks",
   "block.tavern_core.maple_sapling": "Maple Sapling",
   "block.tavern_core.maple_wood": "Maple Wood",
+  "block.tavern_core.maple_lantern": "Maple Lantern",
   "block.tavern_core.stripped_maple_log": "Stripped Maple Log",
   "block.tavern_core.stripped_maple_wood": "Stripped Maple Wood",
   "block.tavern_core.maple_slab": "Maple Slab",
@@ -103,6 +103,7 @@
   "block.tavern_core.sculk_mushroom_fence_gate": "Sculk Mushroom Fence Gate",
 
   "itemGroup.tavern_core.settlers_tavern": "Tavern Blocks",
+  "itemGroup.tavern_core.settlers_tavern_trees": "Tavern Nature",
   "itemGroup.tavern_core.settlers_tavern_decor": "Tavern Decorations",
   "itemGroup.tavern_core.settlers_tavern_misc": "Tavern Misc"
 }

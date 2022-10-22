@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#S#",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "tavern_core:sculk_mushroom_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tavern_core:sculk_mushroom_fence",
+    "count": 3
+  }
+}

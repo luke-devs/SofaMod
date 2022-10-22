@@ -15,6 +15,10 @@ public class TavernCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.MAPLE_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.MAPLE_SAPLING, RenderLayer.getCutout());
 
+        //WILLOW
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.WILLOW_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.WILLOW_SAPLING, RenderLayer.getCutout());
+
         //SCULK MUSHROOM
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.SCULK_MUSHROOM, RenderLayer.getCutout());
     }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:stripped_sculk_mushroom_log"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:sculk_mushroom_planks",
+    "count": 4
+  }
+}
