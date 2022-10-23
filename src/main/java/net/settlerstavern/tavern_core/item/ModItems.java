@@ -3,8 +3,10 @@ package net.settlerstavern.tavern_core.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.SignItem;
+import net.minecraft.item.SpawnEggItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.settlerstavern.entity.ModEntities;
 import net.settlerstavern.tavern_core.TavernCore;
 import net.settlerstavern.tavern_core.block.ModBlocks;
 import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
@@ -84,6 +86,10 @@ public class ModItems {
         public static final Item SCULK_SIGN = registerItem("sculk_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
                     ModBlocks_Trees.SCULK_SIGN_BLOCK, ModBlocks_Trees.SCULK_WALL_SIGN_BLOCK));
+
+    public static final Item KRAKEN_SPAWN_EGG = registerItem("kraken_spawn_egg",
+            new SpawnEggItem(ModEntities.KRAKEN,0x948e8d, 0x3b3635,
+                        new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TavernCore.MOD_ID, name), item);

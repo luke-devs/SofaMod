@@ -69,6 +69,8 @@
   "item.tavern_core.willow_stairs": "Willow Stairs",
   "item.tavern_core.willow_fence": "Willow Fence",
   "item.tavern_core.willow_fence_gate": "Willow Fence Gate",
+  "item.tavern_core.kraken_spawn_egg": "Kraken Spawn Egg",
+  "entity.tavern_core.kraken": "The Kraken",
 
   "block.tavern_core.platinum_block":  "Platinum Block",
   "block.tavern_core.plated_gold_block":  "Plated Gold Block",
