@@ -137,5 +137,7 @@
   "itemGroup.tavern_core.settlers_tavern": "Tavern Blocks",
   "itemGroup.tavern_core.settlers_tavern_trees": "Tavern Nature",
   "itemGroup.tavern_core.settlers_tavern_decor": "Tavern Decorations",
-  "itemGroup.tavern_core.settlers_tavern_misc": "Tavern Misc"
+  "itemGroup.tavern_core.settlers_tavern_misc": "Tavern Misc",
+
+  "kraken.idle.wailing": "Kraken Wailing"
 }

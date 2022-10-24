@@ -6,9 +6,9 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
-import net.settlerstavern.entity.ModEntities;
-import net.settlerstavern.entity.client.KrakenRenderer;
 import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
+import net.settlerstavern.tavern_core.entity.ModEntities;
+import net.settlerstavern.tavern_core.entity.client.KrakenRenderer;
 
 @Environment(EnvType.CLIENT)
 public class TavernCoreClient implements ClientModInitializer {

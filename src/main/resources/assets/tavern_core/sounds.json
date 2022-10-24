@@ -1,0 +1,6 @@
+{
+  "kraken_idle": {
+    "subtitle": "kraken.idle.wailing",
+    "sounds": ["tavern_core:kraken/kraken_01", "tavern_core:kraken/kraken_02", "tavern_core:kraken/kraken_03"]
+  }
+}

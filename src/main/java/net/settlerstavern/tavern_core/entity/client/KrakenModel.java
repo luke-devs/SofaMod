@@ -1,7 +1,7 @@
-package net.settlerstavern.entity.client;
+package net.settlerstavern.tavern_core.entity.client;
 
 import net.minecraft.util.Identifier;
-import net.settlerstavern.entity.custom.KrakenEntity;
+import net.settlerstavern.tavern_core.entity.custom.KrakenEntity;
 import net.settlerstavern.tavern_core.TavernCore;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 

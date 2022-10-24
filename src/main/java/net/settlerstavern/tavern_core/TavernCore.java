@@ -7,6 +7,7 @@ import net.fabricmc.api.ModInitializer;
 import net.settlerstavern.tavern_core.block.ModBlocks_Lanterns;
 import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
 import net.settlerstavern.tavern_core.item.ModItems;
+import net.settlerstavern.tavern_core.sound.ModSounds;
 import net.settlerstavern.tavern_core.util.ModFlammableBlocks;
 import net.settlerstavern.tavern_core.util.ModRegistries;
 import net.settlerstavern.tavern_core.util.ModStrippableBlocks;
@@ -38,6 +39,7 @@ public class TavernCore implements ModInitializer {
 		ModStrippableBlocks.registerStrippables();
 		Optional<RegistryEntryList.Named<Item>> tagList = Registry.ITEM.getEntryList(ModTags.Items.FOSSILS);
 		ModRegistries.registerAttributes();
+		ModSounds.registerModSounds();
 	}
 
 }

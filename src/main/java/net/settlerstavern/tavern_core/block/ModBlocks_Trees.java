@@ -9,7 +9,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.settlerstavern.entity.ModSignTypes;
+import net.settlerstavern.tavern_core.entity.ModSignTypes;
 import net.settlerstavern.tavern_core.TavernCore;
 import net.settlerstavern.tavern_core.block.custom.ModStairsBlock;
 import net.settlerstavern.tavern_core.item.ModItemGroup;

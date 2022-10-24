@@ -1,4 +1,4 @@
-package net.settlerstavern.entity;
+package net.settlerstavern.tavern_core.entity;
 
 import net.minecraft.util.SignType;
 import net.settlerstavern.tavern_core.mixin.SignTypeAccessor;

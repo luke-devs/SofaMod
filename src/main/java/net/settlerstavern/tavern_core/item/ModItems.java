@@ -6,9 +6,8 @@ import net.minecraft.item.SignItem;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.settlerstavern.entity.ModEntities;
+import net.settlerstavern.tavern_core.entity.ModEntities;
 import net.settlerstavern.tavern_core.TavernCore;
-import net.settlerstavern.tavern_core.block.ModBlocks;
 import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
 import net.settlerstavern.tavern_core.item.custom.FossilItem;
 
