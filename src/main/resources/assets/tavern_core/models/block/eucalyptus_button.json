@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "tavern_core:block/eucalyptus_planks"
+  }
+}

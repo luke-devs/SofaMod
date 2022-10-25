@@ -82,6 +82,10 @@ public class ModItems {
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
                     ModBlocks_Trees.WILLOW_SIGN_BLOCK, ModBlocks_Trees.WILLOW_WALL_SIGN_BLOCK));
 
+    public static final Item EUCALYPTUS_SIGN = registerItem("eucalyptus_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
+                    ModBlocks_Trees.EUCALYPTUS_SIGN_BLOCK, ModBlocks_Trees.EUCALYPTUS_WALL_SIGN_BLOCK));
+
         public static final Item SCULK_SIGN = registerItem("sculk_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
                     ModBlocks_Trees.SCULK_SIGN_BLOCK, ModBlocks_Trees.SCULK_WALL_SIGN_BLOCK));
@@ -89,6 +93,13 @@ public class ModItems {
     public static final Item KRAKEN_SPAWN_EGG = registerItem("kraken_spawn_egg",
             new SpawnEggItem(ModEntities.KRAKEN,0x948e8d, 0x3b3635,
                         new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item DUCKY_SPAWN_EGG = registerItem("ducky_spawn_egg",
+            new SpawnEggItem(ModEntities.DUCKY,0x1d5735, 0x47372d,
+                    new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item MAPLE_SYRUP = registerItem("maple_syrup",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_FOOD)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TavernCore.MOD_ID, name), item);

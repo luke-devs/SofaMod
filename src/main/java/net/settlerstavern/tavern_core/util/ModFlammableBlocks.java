@@ -14,6 +14,13 @@ public class ModFlammableBlocks {
         registry.add(ModBlocks_Trees.MAPLE_PLANKS, 5 ,20);
         registry.add(ModBlocks_Trees.MAPLE_LEAVES, 30 ,60);
 
+        registry.add(ModBlocks_Trees.EUCALYPTUS_LOG, 5 ,5);
+        registry.add(ModBlocks_Trees.EUCALYPTUS_WOOD, 5 ,5);
+        registry.add(ModBlocks_Trees.STRIPPED_EUCALYPTUS_LOG, 5 ,5);
+        registry.add(ModBlocks_Trees.STRIPPED_EUCALYPTUS_WOOD, 5 ,5);
+        registry.add(ModBlocks_Trees.EUCALYPTUS_PLANKS, 5 ,20);
+        registry.add(ModBlocks_Trees.EUCALYPTUS_LEAVES, 30 ,60);
+
         registry.add(ModBlocks_Trees.WILLOW_LOG, 5 ,5);
         registry.add(ModBlocks_Trees.WILLOW_WOOD, 5 ,5);
         registry.add(ModBlocks_Trees.STRIPPED_WILLOW_LOG, 5 ,5);

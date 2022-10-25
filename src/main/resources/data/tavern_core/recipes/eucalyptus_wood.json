@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "tavern_core:maple_log"
+      "item": "tavern_core:eucalyptus_log"
     }
   },
   "result": {
-    "item": "tavern_core:maple_wood",
+    "item": "tavern_core:eucalyptus_wood",
     "count": 4
   }
 }

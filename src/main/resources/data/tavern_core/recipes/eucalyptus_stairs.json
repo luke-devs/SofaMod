@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tavern_core:eucalyptus_planks"
+    }
+  },
+  "result": {
+    "item": "tavern_core:eucalyptus_stairs",
+    "count": 6
+  }
+}

@@ -1,4 +1,4 @@
-package net.settlerstavern.tavern_core.entity.client;
+package net.settlerstavern.tavern_core.client;
 
 import net.minecraft.util.Identifier;
 import net.settlerstavern.tavern_core.entity.custom.KrakenEntity;

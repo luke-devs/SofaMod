@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:stripped_eucalyptus_log"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:eucalyptus_planks",
+    "count": 4
+  }
+}

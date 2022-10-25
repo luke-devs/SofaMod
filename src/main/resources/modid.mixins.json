@@ -4,8 +4,9 @@
   "package": "net.settlerstavern.tavern_core.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "SignTypeAccessor",
-    "BlockEntityTypeMixin"
+    "BlockEntityTypeMixin",
+    "LogStrippingMixin",
+    "SignTypeAccessor"
   ],
   "client": [
     "ExampleMixin"

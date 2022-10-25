@@ -4,6 +4,7 @@
     "tavern_core:maple_log",
     "tavern_core:maple_wood",
     "tavern_core:stripped_maple_log",
+    "tavern_core:stripped_maple_log_full",
     "tavern_core:stripped_maple_wood",
     "tavern_core:willow_log",
     "tavern_core:willow_wood",
@@ -12,6 +13,10 @@
     "tavern_core:sculk_mushroom_log",
     "tavern_core:sculk_mushroom_wood",
     "tavern_core:stripped_sculk_mushroom_log",
-    "tavern_core:stripped_sculk_mushroom_wood"
+    "tavern_core:stripped_sculk_mushroom_wood",
+    "tavern_core:eucalyptus_log",
+    "tavern_core:eucalyptus_wood",
+    "tavern_core:stripped_eucalyptus_log",
+    "tavern_core:stripped_eucalyptus_wood"
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tavern_core:block/eucalyptus_sapling"
+  }
+}
