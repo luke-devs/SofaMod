@@ -36,6 +36,42 @@ public class ModBlocks_Lanterns {
     public static final Block SILVERBELL_LANTERN = registerBlock("silverbell_lantern",
             new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
 
+    public static final Block OAK_LANTERN = registerBlock("oak_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block BIRCH_LANTERN = registerBlock("birch_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block DARK_OAK_LANTERN = registerBlock("dark_oak_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block SPRUCE_LANTERN = registerBlock("spruce_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block ACACIA_LANTERN = registerBlock("acacia_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block MANGROVE_LANTERN = registerBlock("mangrove_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block JUNGLE_LANTERN = registerBlock("jungle_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CRIMSON_LANTERN = registerBlock("crimson_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.NETHER_STEM)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block WARPED_LANTERN = registerBlock("warped_lantern",
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.NETHER_STEM)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block COPPER_LANTERN = registerBlock("copper_lantern",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(2f).luminance(15).sounds(BlockSoundGroup.COPPER).requiresTool()), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block AMETHYST_LANTERN = registerBlock("amethyst_lantern",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2f).luminance(15).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool()), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block ELDER_SEA_LANTERN = registerBlock("elder_sea_lantern",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f).luminance(15).sounds(BlockSoundGroup.GLASS).requiresTool()), ModItemGroup.SETTLERSTAVERN);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "tavern_core:block/cherry_blossom_planks",
+    "top": "tavern_core:block/cherry_blossom_planks",
+    "side": "tavern_core:block/cherry_blossom_planks"
+  }
+}

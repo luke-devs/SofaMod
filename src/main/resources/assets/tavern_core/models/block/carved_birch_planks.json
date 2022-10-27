@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tavern_core:block/carved_birch_planks",
+    "side": "tavern_core:block/carved_birch_planks"
+  }
+}

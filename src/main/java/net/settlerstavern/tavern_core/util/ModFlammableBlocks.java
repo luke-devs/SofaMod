@@ -28,5 +28,19 @@ public class ModFlammableBlocks {
         registry.add(ModBlocks_Trees.WILLOW_PLANKS, 5 ,20);
         registry.add(ModBlocks_Trees.WILLOW_LEAVES, 30 ,60);
 
+        registry.add(ModBlocks_Trees.CHERRY_BLOSSOM_LOG, 5 ,5);
+        registry.add(ModBlocks_Trees.CHERRY_BLOSSOM_WOOD, 5 ,5);
+        registry.add(ModBlocks_Trees.STRIPPED_CHERRY_BLOSSOM_LOG, 5 ,5);
+        registry.add(ModBlocks_Trees.STRIPPED_CHERRY_BLOSSOM_WOOD, 5 ,5);
+        registry.add(ModBlocks_Trees.CHERRY_BLOSSOM_PLANKS, 5 ,20);
+        registry.add(ModBlocks_Trees.CHERRY_BLOSSOM_LEAVES, 30 ,60);
+
+        registry.add(ModBlocks_Trees.SILVERBELL_LOG, 5 ,5);
+        registry.add(ModBlocks_Trees.SILVERBELL_WOOD, 5 ,5);
+        registry.add(ModBlocks_Trees.STRIPPED_SILVERBELL_LOG, 5 ,5);
+        registry.add(ModBlocks_Trees.STRIPPED_SILVERBELL_WOOD, 5 ,5);
+        registry.add(ModBlocks_Trees.SILVERBELL_PLANKS, 5 ,20);
+        registry.add(ModBlocks_Trees.SILVERBELL_LEAVES, 30 ,60);
+
     }
 }

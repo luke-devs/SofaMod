@@ -14,7 +14,7 @@ public class ModEntities {
     public static final EntityType<KrakenEntity> KRAKEN = Registry.register(
             Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "kraken"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, KrakenEntity::new)
-                    .dimensions(EntityDimensions.fixed(8, 8)).build());
+                    .dimensions(EntityDimensions.fixed(13, 8)).build());
 
     public static final EntityType<DuckyEntity> DUCKY = Registry.register(
             Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "ducky"),

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tavern_core:block/silverbell_slab"
+    },
+    "type=double": {
+      "model": "tavern_core:block/silverbell_planks"
+    },
+    "type=top": {
+      "model": "tavern_core:block/silverbell_slab_top"
+    }
+  }
+}

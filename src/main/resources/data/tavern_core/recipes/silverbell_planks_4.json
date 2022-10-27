@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:stripped_silverbell_wood"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:silverbell_planks",
+    "count": 4
+  }
+}

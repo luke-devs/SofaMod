@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tavern_core:stripped_cherry_blossom_log"
+    }
+  ],
+  "result": {
+    "item": "tavern_core:cherry_blossom_planks",
+    "count": 4
+  }
+}

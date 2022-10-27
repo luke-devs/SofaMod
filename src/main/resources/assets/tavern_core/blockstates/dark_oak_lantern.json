@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model" : "tavern_core:block/dark_oak_lantern" }
+  }
+}

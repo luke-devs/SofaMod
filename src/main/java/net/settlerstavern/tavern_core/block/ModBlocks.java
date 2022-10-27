@@ -3,7 +3,9 @@ package net.settlerstavern.tavern_core.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.Material;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -92,6 +94,30 @@ public class ModBlocks {
     public static final Block PACKED_SNOW_PILLAR = registerBlock("packed_snow_pillar",
             new Block(FabricBlockSettings.of(Material.SNOW_BLOCK).strength(0.2f).requiresTool()
                     .sounds(BlockSoundGroup.SNOW)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_OAK_PLANKS = registerBlock("carved_oak_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_BIRCH_PLANKS = registerBlock("carved_birch_planks",
+        new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_DARK_OAK_PLANKS = registerBlock("carved_dark_oak_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_SPRUCE_PLANKS = registerBlock("carved_spruce_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_ACACIA_PLANKS = registerBlock("carved_acacia_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_JUNGLE_PLANKS = registerBlock("carved_jungle_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_WARPED_PLANKS = registerBlock("carved_warped_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
+
+    public static final Block CARVED_CRIMSON_PLANKS = registerBlock("carved_crimson_planks",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){

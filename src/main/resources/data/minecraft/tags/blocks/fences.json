@@ -4,6 +4,8 @@
     "tavern_core:maple_fence",
     "tavern_core:willow_fence",
     "tavern_core:eucalyptus_fence",
-    "tavern_core:sculk_mushroom_fence"
+    "tavern_core:sculk_mushroom_fence",
+    "tavern_core:cherry_blossom_fence",
+    "tavern_core:silverbell_fence"
   ]
 }

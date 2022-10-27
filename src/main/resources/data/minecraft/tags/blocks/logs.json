@@ -17,6 +17,14 @@
     "tavern_core:eucalyptus_log",
     "tavern_core:eucalyptus_wood",
     "tavern_core:stripped_eucalyptus_log",
-    "tavern_core:stripped_eucalyptus_wood"
+    "tavern_core:stripped_eucalyptus_wood",
+    "tavern_core:cherry_blossom_log",
+    "tavern_core:cherry_blossom_wood",
+    "tavern_core:stripped_cherry_blossom_log",
+    "tavern_core:stripped_cherry_blossom_wood",
+    "tavern_core:silverbell_log",
+    "tavern_core:silverbell_wood",
+    "tavern_core:stripped_silverbell_log",
+    "tavern_core:stripped_silverbell_wood"
   ]
 }

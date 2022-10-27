@@ -27,8 +27,16 @@ public class TavernCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.EUCALYPTUS_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.EUCALYPTUS_SAPLING, RenderLayer.getCutout());
 
+        //WILLOW
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.CHERRY_BLOSSOM_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.CHERRY_BLOSSOM_SAPLING, RenderLayer.getCutout());
+
         //SCULK MUSHROOM
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.SCULK_MUSHROOM, RenderLayer.getCutout());
+
+        //SILVERBELL
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.SILVERBELL_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks_Trees.SILVERBELL_SAPLING, RenderLayer.getCutout());
 
         EntityRendererRegistry.register(ModEntities.KRAKEN, KrakenRenderer::new);
         EntityRendererRegistry.register(ModEntities.DUCKY, DuckyRenderer::new);

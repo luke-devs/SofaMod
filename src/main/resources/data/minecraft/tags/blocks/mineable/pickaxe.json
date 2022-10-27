@@ -17,6 +17,9 @@
     "tavern_core:packed_ice_bricks",
     "tavern_core:packed_ice_pillar",
     "tavern_core:icey_deepslate",
-    "tavern_core:frosted_cobblestone"
+    "tavern_core:frosted_cobblestone",
+    "tavern_core:amethyst_lantern",
+    "tavern_core:copper_lantern",
+    "tavern_core:elder_sea_lantern"
   ]
 }

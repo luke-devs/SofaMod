@@ -3,11 +3,11 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.unknown",
+				"identifier": "geometry.kraken",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 44,
-				"visible_bounds_height": 35,
+				"visible_bounds_width": 70,
+				"visible_bounds_height": 60,
 				"visible_bounds_offset": [0, -3.5, 0]
 			},
 			"bones": [
@@ -1239,6 +1239,17 @@
 								"up": {"uv": [43, 12.25], "uv_size": [-1.75, 1]},
 								"down": {"uv": [44.75, 13.25], "uv_size": [-1.75, -1]}
 							}
+						}
+					]
+				},
+				{
+					"name": "hitbox",
+					"pivot": [0, 27.936, 0],
+					"cubes": [
+						{
+							"origin": [-74.68, -18, -104.2],
+							"size": [150, 150, 250],
+							"uv": {}
 						}
 					]
 				}

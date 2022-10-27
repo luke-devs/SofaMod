@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "tavern_core:silverbell_log"
+    }
+  },
+  "result": {
+    "item": "tavern_core:silverbell_wood",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tavern_core:block/cherry_blossom_slab"
+    },
+    "type=double": {
+      "model": "tavern_core:block/cherry_blossom_planks"
+    },
+    "type=top": {
+      "model": "tavern_core:block/cherry_blossom_slab_top"
+    }
+  }
+}

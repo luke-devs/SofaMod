@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tavern_core:maple_leaves",
+    "tavern_core:eucalyptus_leaves",
+    "tavern_core:willow_leaves",
+    "tavern_core:cherry_blossom_leaves",
+    "tavern_core:silverbell_leaves"
+  ]
+}

@@ -86,9 +86,17 @@ public class ModItems {
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
                     ModBlocks_Trees.EUCALYPTUS_SIGN_BLOCK, ModBlocks_Trees.EUCALYPTUS_WALL_SIGN_BLOCK));
 
-        public static final Item SCULK_SIGN = registerItem("sculk_sign",
+    public static final Item CHERRY_BLOSSOM_SIGN = registerItem("cherry_blossom_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                    ModBlocks_Trees.SCULK_SIGN_BLOCK, ModBlocks_Trees.SCULK_WALL_SIGN_BLOCK));
+                    ModBlocks_Trees.CHERRY_BLOSSOM_SIGN_BLOCK, ModBlocks_Trees.CHERRY_BLOSSOM_WALL_SIGN_BLOCK));
+
+    public static final Item SCULK_SIGN = registerItem("sculk_sign",
+        new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
+                ModBlocks_Trees.SCULK_SIGN_BLOCK, ModBlocks_Trees.SCULK_WALL_SIGN_BLOCK));
+
+    public static final Item SILVERBELL_SIGN = registerItem("silverbell_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
+                    ModBlocks_Trees.SILVERBELL_SIGN_BLOCK, ModBlocks_Trees.SILVERBELL_WALL_SIGN_BLOCK));
 
     public static final Item KRAKEN_SPAWN_EGG = registerItem("kraken_spawn_egg",
             new SpawnEggItem(ModEntities.KRAKEN,0x948e8d, 0x3b3635,

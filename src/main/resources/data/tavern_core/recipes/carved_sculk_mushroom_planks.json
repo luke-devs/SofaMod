@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "tavern_core:willow_planks"
+      "item": "tavern_core:sculk_mushroom_planks"
     }
   },
   "result": {
-    "item": "tavern_core:carved_willow_planks",
+    "item": "tavern_core:carved_sculk_mushroom_planks",
     "count": 3
   }
 }

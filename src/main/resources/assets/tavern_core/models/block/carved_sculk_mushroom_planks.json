@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "tavern_core:block/carved_sculk_mushroom_planks"
+    "end": "tavern_core:block/carved_sculk_mushroom_planks",
+    "side": "tavern_core:block/carved_sculk_mushroom_planks"
   }
 }
