@@ -153,6 +153,8 @@
   "item.tavern_core.silverbell_fence": "Silverbell Fence",
   "item.tavern_core.silverbell_fence_gate": "Silverbell Fence Gate",
   "item.tavern_core.silverbell_sign": "Silverbell Sign",
+  "item.tavern_core.silverbell_button": "Silverbell Button",
+  "item.tavern_core.silverbell_pressure_plate": "Silverbell Pressure Plate",
   "entity.tavern_core.kraken": "The Kraken",
 
   "block.tavern_core.platinum_block":  "Platinum Block",
@@ -293,6 +295,8 @@
   "block.tavern_core.silverbell_fence": "Silverbell Fence",
   "block.tavern_core.silverbell_fence_gate": "Silverbell Fence Gate",
   "block.tavern_core.silverbell_sign": "Silverbell Sign",
+  "block.tavern_core.silverbell_button": "Silverbell Button",
+  "block.tavern_core.silverbell_pressure_plate": "Silverbell Pressure Plate",
 
 
   "itemGroup.tavern_core.settlers_tavern": "Tavern Blocks",
