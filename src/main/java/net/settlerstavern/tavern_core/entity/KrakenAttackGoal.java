@@ -2,6 +2,8 @@ package net.settlerstavern.tavern_core.entity;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.goal.Goal;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.server.world.ServerWorld;
 import net.settlerstavern.tavern_core.entity.custom.KrakenEntity;
 
 import java.util.EnumSet;
@@ -9,7 +11,7 @@ import java.util.EnumSet;
 public class KrakenAttackGoal extends Goal {
     private int statecheck;
     private final KrakenEntity entity;
-    private double moveSpeedAmp = 1;
+    private double moveSpeedAmp = 0.4;
     private int attackTime = -1;
 
     public KrakenAttackGoal(KrakenEntity mob, double moveSpeedAmpIn, int state) {
@@ -49,9 +51,11 @@ public class KrakenAttackGoal extends Goal {
                     livingentity.getZ());
             double d1 = this.getAttackReachSqr(livingentity);
             if (inLineOfSight) {
-                if (this.entity.distanceTo(livingentity) >= 13.0D) {
+                System.out.println("Kraken has sighted player!");
+                System.out.println("Distance to player = " + this.entity.distanceTo(livingentity));
+                if (this.entity.distanceTo(livingentity) >= 6.0D) {
+                    System.out.println("Kraken needs to start chasing player because player is too far away to attack." + this.attackTime);
                     this.entity.getNavigation().startMovingTo(livingentity, this.moveSpeedAmp);
-                    this.attackTime = -5;
                 } else {
                     if (this.attackTime == 4) {
                         this.entity.getNavigation().startMovingTo(livingentity, this.moveSpeedAmp);
@@ -64,6 +68,7 @@ public class KrakenAttackGoal extends Goal {
                     if (this.attackTime == 8) {
                         this.attackTime = -5;
                         this.entity.setAttackingState(0);
+                        livingentity.damage(DamageSource.mob(this.entity), 5.0f);
                     }
                 }
             }
@@ -71,6 +76,6 @@ public class KrakenAttackGoal extends Goal {
     }
 
     protected double getAttackReachSqr(LivingEntity attackTarget) {
-        return (double) (this.entity.getWidth() * 4.5F * this.entity.getWidth() * 4.5F + entity.getWidth());
+        return 5.0f;
     }
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/starry_night"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/starry_night",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/starry_night",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/starry_night",
+      "y": 90
+    }
+  }
+}

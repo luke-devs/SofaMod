@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/harry_otternaught"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/harry_otternaught",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/harry_otternaught",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/harry_otternaught",
+      "y": 90
+    }
+  }
+}

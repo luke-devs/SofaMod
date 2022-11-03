@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/glory_days"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/glory_days",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/glory_days",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/glory_days",
+      "y": 90
+    }
+  }
+}

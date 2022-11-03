@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/acro"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/acro",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/acro",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/acro",
+      "y": 90
+    }
+  }
+}

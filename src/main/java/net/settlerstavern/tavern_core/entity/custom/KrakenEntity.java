@@ -61,6 +61,7 @@ public class KrakenEntity extends HostileEntity implements IAnimatable {
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 2000.0D)
                 .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 3.0f)
                 .add(EntityAttributes.GENERIC_ATTACK_SPEED, 1.0f)
+                .add(EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 3.0F)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.6f)
                 .add(EntityAttributes.GENERIC_FOLLOW_RANGE, 30)
                 .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 10.0f);
@@ -87,11 +88,11 @@ public class KrakenEntity extends HostileEntity implements IAnimatable {
     }
 
     protected float getActiveEyeHeight(EntityPose pose, EntityDimensions dimensions) {
-        return dimensions.height * 0.4f;
+        return dimensions.height * 0.2f;
     }
 
     public int getMaxLookPitchChange() {
-        return 180;
+        return 80;
     }
 
     public int getMaxHeadRotation() {
@@ -99,7 +100,7 @@ public class KrakenEntity extends HostileEntity implements IAnimatable {
     }
 
     public int getXpToDrop() {
-        return 100 + this.world.random.nextInt(300);
+        return 200 + this.world.random.nextInt(400);
     }
 
     @Override
@@ -127,7 +128,7 @@ public class KrakenEntity extends HostileEntity implements IAnimatable {
         }else if(!event.isMoving() && !this.isAttacking()){
             event.getController().setAnimation(new AnimationBuilder().addAnimation("idle", true));
         }else if (this.isAttacking()){
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("swing", false));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("swing", true));
         }
         return PlayState.CONTINUE;
     }
@@ -146,9 +147,6 @@ public class KrakenEntity extends HostileEntity implements IAnimatable {
     protected void initDataTracker() {
         super.initDataTracker();
         this.dataTracker.startTracking(STATE, 0);
-    }
-
-    public void attack(LivingEntity target, float pullProgress) {
     }
 
     @Override

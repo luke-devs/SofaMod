@@ -8,6 +8,8 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
 import net.settlerstavern.tavern_core.client.DuckyRenderer;
+import net.settlerstavern.tavern_core.client.EmptyRenderer;
+import net.settlerstavern.tavern_core.client.OtterRenderer;
 import net.settlerstavern.tavern_core.entity.ModEntities;
 import net.settlerstavern.tavern_core.client.KrakenRenderer;
 
@@ -40,5 +42,7 @@ public class TavernCoreClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.KRAKEN, KrakenRenderer::new);
         EntityRendererRegistry.register(ModEntities.DUCKY, DuckyRenderer::new);
+        EntityRendererRegistry.register(ModEntities.OTTER, OtterRenderer::new);
+        EntityRendererRegistry.register(ModEntities.SEAT, EmptyRenderer::new);
     }
 }

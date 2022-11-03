@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "tavern_core:block/stripped_maple_log_top",
-    "side": "tavern_core:block/stripped_maple_log"
-  }
-}

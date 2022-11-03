@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/frozen_nights"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/frozen_nights",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/frozen_nights",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/frozen_nights",
+      "y": 90
+    }
+  }
+}

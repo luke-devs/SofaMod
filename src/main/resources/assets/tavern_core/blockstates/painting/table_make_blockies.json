@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/table_make_blockies"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/table_make_blockies",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/table_make_blockies",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/table_make_blockies",
+      "y": 90
+    }
+  }
+}

@@ -9,8 +9,11 @@ import net.minecraft.util.registry.Registry;
 import net.settlerstavern.tavern_core.TavernCore;
 import net.settlerstavern.tavern_core.entity.custom.DuckyEntity;
 import net.settlerstavern.tavern_core.entity.custom.KrakenEntity;
+import net.settlerstavern.tavern_core.entity.custom.OtterEntity;
+import net.settlerstavern.tavern_core.entity.custom.SeatEntity;
 
 public class ModEntities {
+
     public static final EntityType<KrakenEntity> KRAKEN = Registry.register(
             Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "kraken"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, KrakenEntity::new)
@@ -20,4 +23,16 @@ public class ModEntities {
             Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "ducky"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, DuckyEntity::new)
                     .dimensions(EntityDimensions.fixed(1, 1)).build());
+
+    public static final EntityType<OtterEntity> OTTER = Registry.register(
+            Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "otter"),
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, OtterEntity::new)
+                    .dimensions(EntityDimensions.fixed(1, 1)).build());
+
+    public static final EntityType<SeatEntity> SEAT = Registry.register(
+            Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "seat"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MISC, SeatEntity::new)
+                    .dimensions(EntityDimensions.fixed(1, 2)).build());
+
+
 }

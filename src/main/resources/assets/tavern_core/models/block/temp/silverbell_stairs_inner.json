@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "tavern_core:block/maple_planks",
-    "top": "tavern_core:block/maple_planks",
-    "side": "tavern_core:block/maple_planks"
-  }
-}

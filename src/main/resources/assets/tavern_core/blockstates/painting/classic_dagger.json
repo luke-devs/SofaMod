@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tavern_core:block/painting/classic_dagger"
+    },
+    "facing=south": {
+      "model": "tavern_core:block/painting/classic_dagger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tavern_core:block/painting/classic_dagger",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "tavern_core:block/painting/classic_dagger",
+      "y": 90
+    }
+  }
+}

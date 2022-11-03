@@ -10,5 +10,6 @@ public class ModRegistries {
     public static void registerAttributes() {
         FabricDefaultAttributeRegistry.register(ModEntities.KRAKEN, KrakenEntity.setAttributes());
         FabricDefaultAttributeRegistry.register(ModEntities.DUCKY, DuckyEntity.setAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.OTTER, DuckyEntity.setAttributes());
     }
 }
