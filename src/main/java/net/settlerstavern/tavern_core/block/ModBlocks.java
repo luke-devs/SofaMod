@@ -127,6 +127,9 @@ public class ModBlocks {
     public static final Block SETTING_SUMMER = registerBlock("painting/setting_summer",
             new PaintingBlock_32x48(FabricBlockSettings.of(Material.WOOD).nonOpaque().noCollision().breakInstantly()), ModItemGroup.SETTLERSTAVERN_DECOR);
 
+    public static final Block VIVID_SIERRA = registerBlock("painting/vivid_sierra",
+            new PaintingBlock_48x48(FabricBlockSettings.of(Material.WOOD).nonOpaque().noCollision().breakInstantly()), ModItemGroup.SETTLERSTAVERN_DECOR);
+
 
     public static final Block BLUE_ICE_BRICKS = registerBlock("blue_ice_bricks",
             new Block(FabricBlockSettings.of(Material.ICE).strength(2.8f).requiresTool().slipperiness(0.989f)
