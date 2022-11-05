@@ -20,7 +20,7 @@ import net.settlerstavern.tavern_core.world.feature.tree.MapleSaplingGenerator;
 import net.settlerstavern.tavern_core.world.feature.tree.SculkMushroomGenerator;
 
 
-public class ModBlocks_Trees {
+public class ModBlocksTrees {
 
     // MAPLE TREE
     public static final Block MAPLE_LOG = registerBlock("maple_log",
@@ -45,7 +45,7 @@ public class ModBlocks_Trees {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block MAPLE_STAIRS = registerBlock("maple_stairs",
-            new ModStairsBlock(ModBlocks_Trees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
+            new ModStairsBlock(ModBlocksTrees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block MAPLE_SLAB = registerBlock("maple_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -95,7 +95,7 @@ public class ModBlocks_Trees {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.SCULK_CATALYST)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block SCULK_MUSHROOM_STAIRS = registerBlock("sculk_mushroom_stairs",
-            new ModStairsBlock(ModBlocks_Trees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS).sounds(BlockSoundGroup.SCULK_CATALYST)), ModItemGroup.SETTLERSTAVERN_TREES);
+            new ModStairsBlock(ModBlocksTrees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS).sounds(BlockSoundGroup.SCULK_CATALYST)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block SCULK_MUSHROOM_SLAB = registerBlock("sculk_mushroom_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB).sounds(BlockSoundGroup.SCULK_CATALYST)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -145,7 +145,7 @@ public class ModBlocks_Trees {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block WILLOW_STAIRS = registerBlock("willow_stairs",
-            new ModStairsBlock(ModBlocks_Trees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
+            new ModStairsBlock(ModBlocksTrees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block WILLOW_SLAB = registerBlock("willow_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -195,7 +195,7 @@ public class ModBlocks_Trees {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block EUCALYPTUS_STAIRS = registerBlock("eucalyptus_stairs",
-            new ModStairsBlock(ModBlocks_Trees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
+            new ModStairsBlock(ModBlocksTrees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block EUCALYPTUS_SLAB = registerBlock("eucalyptus_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -245,7 +245,7 @@ public class ModBlocks_Trees {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block CHERRY_BLOSSOM_STAIRS = registerBlock("cherry_blossom_stairs",
-            new ModStairsBlock(ModBlocks_Trees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
+            new ModStairsBlock(ModBlocksTrees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block CHERRY_BLOSSOM_SLAB = registerBlock("cherry_blossom_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB)), ModItemGroup.SETTLERSTAVERN_TREES);
@@ -295,7 +295,7 @@ public class ModBlocks_Trees {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block SILVERBELL_STAIRS = registerBlock("silverbell_stairs",
-            new ModStairsBlock(ModBlocks_Trees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
+            new ModStairsBlock(ModBlocksTrees.MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copy(Blocks.OAK_STAIRS)), ModItemGroup.SETTLERSTAVERN_TREES);
 
     public static final Block SILVERBELL_SLAB = registerBlock("silverbell_slab",
             new SlabBlock(FabricBlockSettings.copy(Blocks.OAK_SLAB)), ModItemGroup.SETTLERSTAVERN_TREES);

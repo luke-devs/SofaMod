@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tavern_core:block/flint_block" }
+  }
+}

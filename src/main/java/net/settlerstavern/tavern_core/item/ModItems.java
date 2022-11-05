@@ -8,14 +8,56 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.settlerstavern.tavern_core.entity.ModEntities;
 import net.settlerstavern.tavern_core.TavernCore;
-import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
+import net.settlerstavern.tavern_core.block.ModBlocksTrees;
 import net.settlerstavern.tavern_core.item.custom.FossilItem;
 
 
 public class ModItems {
 
     public static final Item PLATINUM_INGOT = registerItem("platinum_ingot",
-            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN)));
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item PLATINUM_NUGGET = registerItem("platinum_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item TRINKET_PILE = registerItem("trinket_pile",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item EXQUISITE_EMERALD = registerItem("exquisite_emerald",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item FIRE_QUARTZ = registerItem("fire_quartz",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item FLAWLESS_DIAMOND = registerItem("flawless_diamond",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item GARNET = registerItem("garnet",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item GLEAMING_LAPIS = registerItem("gleaming_lapis",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item BRILLIANT_AMETHYST = registerItem("brilliant_amethyst",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item SHINING_PEARL = registerItem("shining_pearl",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item RADIANT_GLOWSTONE = registerItem("radiant_glowstone",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item NETHER_BLACK_HOLE = registerItem("nether_black_hole",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item ONYX = registerItem("onyx",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item CORROSIVE_SOLVENT = registerItem("corrosive_solvent",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
+
+    public static final Item KRAKEN_GREASE = registerItem("kraken_grease",
+            new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
 
     public static final Item UNIDENTIFIED_FOSSIL = registerItem("fossils/unidentified_fossil",
             new Item(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_MISC)));
@@ -76,27 +118,27 @@ public class ModItems {
 
     public static final Item MAPLE_SIGN = registerItem("maple_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                    ModBlocks_Trees.MAPLE_SIGN_BLOCK, ModBlocks_Trees.MAPLE_WALL_SIGN_BLOCK));
+                    ModBlocksTrees.MAPLE_SIGN_BLOCK, ModBlocksTrees.MAPLE_WALL_SIGN_BLOCK));
 
     public static final Item WILLOW_SIGN = registerItem("willow_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                    ModBlocks_Trees.WILLOW_SIGN_BLOCK, ModBlocks_Trees.WILLOW_WALL_SIGN_BLOCK));
+                    ModBlocksTrees.WILLOW_SIGN_BLOCK, ModBlocksTrees.WILLOW_WALL_SIGN_BLOCK));
 
     public static final Item EUCALYPTUS_SIGN = registerItem("eucalyptus_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                    ModBlocks_Trees.EUCALYPTUS_SIGN_BLOCK, ModBlocks_Trees.EUCALYPTUS_WALL_SIGN_BLOCK));
+                    ModBlocksTrees.EUCALYPTUS_SIGN_BLOCK, ModBlocksTrees.EUCALYPTUS_WALL_SIGN_BLOCK));
 
     public static final Item CHERRY_BLOSSOM_SIGN = registerItem("cherry_blossom_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                    ModBlocks_Trees.CHERRY_BLOSSOM_SIGN_BLOCK, ModBlocks_Trees.CHERRY_BLOSSOM_WALL_SIGN_BLOCK));
+                    ModBlocksTrees.CHERRY_BLOSSOM_SIGN_BLOCK, ModBlocksTrees.CHERRY_BLOSSOM_WALL_SIGN_BLOCK));
 
     public static final Item SCULK_SIGN = registerItem("sculk_sign",
         new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                ModBlocks_Trees.SCULK_SIGN_BLOCK, ModBlocks_Trees.SCULK_WALL_SIGN_BLOCK));
+                ModBlocksTrees.SCULK_SIGN_BLOCK, ModBlocksTrees.SCULK_WALL_SIGN_BLOCK));
 
     public static final Item SILVERBELL_SIGN = registerItem("silverbell_sign",
             new SignItem(new FabricItemSettings().group(ModItemGroup.SETTLERSTAVERN_TREES).maxCount(16),
-                    ModBlocks_Trees.SILVERBELL_SIGN_BLOCK, ModBlocks_Trees.SILVERBELL_WALL_SIGN_BLOCK));
+                    ModBlocksTrees.SILVERBELL_SIGN_BLOCK, ModBlocksTrees.SILVERBELL_WALL_SIGN_BLOCK));
 
     public static final Item KRAKEN_SPAWN_EGG = registerItem("kraken_spawn_egg",
             new SpawnEggItem(ModEntities.KRAKEN,0x948e8d, 0x3b3635,

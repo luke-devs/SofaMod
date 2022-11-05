@@ -11,12 +11,10 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.settlerstavern.tavern_core.TavernCore;
-import net.settlerstavern.tavern_core.block.custom.DecorationBlock;
-import net.settlerstavern.tavern_core.block.custom.SofaBlock;
 import net.settlerstavern.tavern_core.item.ModItemGroup;
 
 
-public class ModBlocks_Lanterns {
+public class ModBlocksLanterns {
 
     public static final Block CHERRYBLOSSOM_LANTERN = registerBlock("cherry_blossom_lantern",
             new Block(FabricBlockSettings.of(Material.WOOD).strength(2f).luminance(15).sounds(BlockSoundGroup.WOOD)), ModItemGroup.SETTLERSTAVERN);

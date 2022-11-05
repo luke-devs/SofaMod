@@ -1,12 +1,10 @@
 package net.settlerstavern.tavern_core.block.custom;
 
-import com.eliotlash.mclib.math.functions.classic.Mod;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -15,6 +13,7 @@ import net.minecraft.predicate.entity.EntityPredicates;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
+import net.minecraft.state.property.Property;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
 import net.minecraft.util.math.BlockPos;
@@ -25,7 +24,7 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.settlerstavern.tavern_core.entity.ModEntities;
-import net.settlerstavern.tavern_core.entity.custom.SeatEntity;
+import net.settlerstavern.tavern_core.entity.custom.SitEntity;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -64,26 +63,25 @@ public class SofaBlock extends HorizontalFacingBlock {
         double x = pos.getX();
         double y = pos.getY();
         double z = pos.getZ();
-        List<SeatEntity> entities = world.getEntitiesByClass(SeatEntity.class, new Box(x, y, z, x + 1, y - 1, z + 1), EntityPredicates.VALID_ENTITY);
-        for (SeatEntity entity : entities) {
+        List<SitEntity> entities = world.getEntitiesByClass(SitEntity.class, new Box(x, y, z, x + 1, y + 1, z + 1), EntityPredicates.VALID_LIVING_ENTITY);
+
+        for (SitEntity entity : entities) {
             entity.remove(Entity.RemovalReason.DISCARDED);
         }
-        List<SeatEntity> entities2 = world.getEntitiesByClass(SeatEntity.class, new Box(x, y, z, x - 1, y - 1, z - 1), EntityPredicates.VALID_ENTITY);
-        for (SeatEntity entity : entities2) {
-            entity.remove(Entity.RemovalReason.DISCARDED);
+        for (SitEntity entity : entities) {
+            System.out.println(entity);
         }
         super.onBreak(world, pos, state, player);
     }
 
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        PlayerEntity player = (PlayerEntity) placer;
-        BlockPos newPos = pos.offset(player.getHorizontalFacing().getOpposite());
-        SeatEntity seatEntity = new SeatEntity(ModEntities.SEAT, world);
-        seatEntity.setYaw(player.getHorizontalFacing().getOpposite().asRotation());
-        seatEntity.setSeatPos(pos);
-        world.spawnEntity(seatEntity);
-        super.onPlaced(world, pos, state, placer, itemStack);
+        if (!world.isClient()){
+            SitEntity sitEntity = new SitEntity(ModEntities.SIT_ENTITY, world);
+            sitEntity.setSeatPos(pos);
+            world.spawnEntity(sitEntity);
+            super.onPlaced(world, pos, state, placer, itemStack);
+        }
     }
 
     @Override

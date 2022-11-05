@@ -9,7 +9,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
+import net.settlerstavern.tavern_core.block.ModBlocksTrees;
 import net.settlerstavern.tavern_core.item.ModItems;
 
 public class GooeyMapleLogBlock extends PillarBlock {
@@ -22,7 +22,7 @@ public class GooeyMapleLogBlock extends PillarBlock {
         if (!world.isClient){
             if (player.getStackInHand(hand).getItem() == Items.GLASS_BOTTLE){
                 player.getStackInHand(hand).decrement(1);
-                BlockState newState = ModBlocks_Trees.STRIPPED_MAPLE_LOG.getStateWithProperties(state);
+                BlockState newState = ModBlocksTrees.STRIPPED_MAPLE_LOG.getStateWithProperties(state);
                 world.setBlockState(pos, (BlockState)newState, 11);
                 player.dropStack(ModItems.MAPLE_SYRUP.getDefaultStack());
             }

@@ -6,14 +6,14 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.settlerstavern.tavern_core.TavernCore;
-import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
+import net.settlerstavern.tavern_core.block.ModBlocksTrees;
 
 public class ModItemGroup {
     public static final ItemGroup SETTLERSTAVERN = FabricItemGroupBuilder.build(new Identifier(TavernCore.MOD_ID,
             "settlers_tavern"), () -> new ItemStack(ModBlocks.PLATINUM_BLOCK));
 
     public static final ItemGroup SETTLERSTAVERN_TREES = FabricItemGroupBuilder.build(new Identifier(TavernCore.MOD_ID,
-            "settlers_tavern_trees"), () -> new ItemStack(ModBlocks_Trees.MAPLE_SAPLING));
+            "settlers_tavern_trees"), () -> new ItemStack(ModBlocksTrees.MAPLE_SAPLING));
 
     public static final ItemGroup SETTLERSTAVERN_DECOR = FabricItemGroupBuilder.build(new Identifier(TavernCore.MOD_ID,
             "settlers_tavern_decor"), () -> new ItemStack(ModBlocks.BEER_MUG));

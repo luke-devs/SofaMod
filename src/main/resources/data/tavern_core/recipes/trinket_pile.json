@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NPN",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "item": "tavern_core:platinum_nugget"
+    },
+    "P": {
+      "item": "tavern_core:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "tavern_core:trinket_pile"
+  }
+}

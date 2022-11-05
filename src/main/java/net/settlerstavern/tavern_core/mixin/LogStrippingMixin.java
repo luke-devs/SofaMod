@@ -10,13 +10,11 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
-import net.minecraft.util.BlockRotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
-import net.settlerstavern.tavern_core.block.ModBlocks;
-import net.settlerstavern.tavern_core.block.ModBlocks_Trees;
+import net.settlerstavern.tavern_core.block.ModBlocksTrees;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -40,11 +38,11 @@ public abstract class LogStrippingMixin {
         ItemStack itemStack = context.getStack();
         Optional<BlockState> optional4 = Optional.empty();
 
-        if (optional.isPresent() && blockState.getBlock() == ModBlocks_Trees.MAPLE_LOG) {
+        if (optional.isPresent() && blockState.getBlock() == ModBlocksTrees.MAPLE_LOG) {
             net.minecraft.util.math.random.Random random = Random.create();
             int rarity = random.nextBetween(1, 4);
             if (rarity == 4){
-                optional4 = Optional.ofNullable(ModBlocks_Trees.STRIPPED_MAPLE_LOG_FULL.getStateWithProperties(blockState));
+                optional4 = Optional.ofNullable(ModBlocksTrees.STRIPPED_MAPLE_LOG_FULL.getStateWithProperties(blockState));
             }else{
                 optional4 = optional;
             }

@@ -1,5 +1,7 @@
 {
   "item.tavern_core.platinum_block" : "Platinum Block",
+  "item.tavern_core.platinum_nugget" : "Platinum Nugget",
+  "item.tavern_core.trinket_pile" : "Trinket Pile",
   "item.tavern_core.engraved_platinum_block" : "Engraved Platinum Block",
   "item.tavern_core.plated_gold_block" : "Plated Gold Block",
   "item.tavern_core.plated_copper_block" : "Plated Copper Block",
@@ -155,6 +157,20 @@
   "item.tavern_core.silverbell_sign": "Silverbell Sign",
   "item.tavern_core.silverbell_button": "Silverbell Button",
   "item.tavern_core.silverbell_pressure_plate": "Silverbell Pressure Plate",
+
+  "item.tavern_core.garnet" : "Garnet",
+  "item.tavern_core.brilliant_amethyst" : "Brilliant Amethyst",
+  "item.tavern_core.flawless_diamond" : "Flawless Diamond",
+  "item.tavern_core.onyx" : "Onyx",
+  "item.tavern_core.radiant_glowstone" : "Radiant Glowstone",
+  "item.tavern_core.exquisite_emerald" : "Exquisite Emerald",
+  "item.tavern_core.nether_black_hole" : "Nether Black Hole",
+  "item.tavern_core.gleaming_lapis" : "Gleaming Lapis",
+  "item.tavern_core.shining_pearl" : "Shining Pearl",
+  "item.tavern_core.fire_quartz" : "Fire Quartz",
+  "item.tavern_core.corrosive_solvent" : "Corrosive Solvent",
+  "item.tavern_core.kraken_grease" : "Kraken Grease",
+
 
   "item.tavern_core.painting.acro": "Acro",
   "item.tavern_core.painting.maid": "Maid",
@@ -346,6 +362,11 @@
   "block.tavern_core.painting.last_day_out": "Last Day Out",
   "block.tavern_core.painting.setting_summer": "Setting Summer",
   "block.tavern_core.painting.vivid_sierra": "Vivid Sierra",
+  "block.tavern_core.engraved_shining_pearl_block": "Engraved Shining Pearl Block",
+  "block.tavern_core.engraved_brilliant_amethyst_block": "Engraved Brilliant Amethyst Block",
+  "block.tavern_core.engraved_diamond_block": "Engraved Diamond Block",
+  "block.tavern_core.ender_pearl_block": "Ender Pearl Block",
+  "block.tavern_core.flint_block": "Flint Block",
 
 
 

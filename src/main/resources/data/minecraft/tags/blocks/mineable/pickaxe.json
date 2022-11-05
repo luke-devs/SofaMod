@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "tavern_core:platinum_block",
+    "tavern_core:engraved_shining_pearl_block",
+    "tavern_core:engraved_brilliant_amethyst_block",
+    "tavern_core:engraved_diamond_block",
+    "tavern_core:flint_block",
+    "tavern_core:ender_pearl_block",
     "tavern_core:engraved_platinum_block",
     "tavern_core:plated_gold_block",
     "tavern_core:plated_copper_block",

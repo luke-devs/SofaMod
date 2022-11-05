@@ -7,10 +7,7 @@ import net.minecraft.entity.SpawnGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.settlerstavern.tavern_core.TavernCore;
-import net.settlerstavern.tavern_core.entity.custom.DuckyEntity;
-import net.settlerstavern.tavern_core.entity.custom.KrakenEntity;
-import net.settlerstavern.tavern_core.entity.custom.OtterEntity;
-import net.settlerstavern.tavern_core.entity.custom.SeatEntity;
+import net.settlerstavern.tavern_core.entity.custom.*;
 
 public class ModEntities {
 
@@ -29,10 +26,12 @@ public class ModEntities {
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, OtterEntity::new)
                     .dimensions(EntityDimensions.fixed(1, 1)).build());
 
-    public static final EntityType<SeatEntity> SEAT = Registry.register(
-            Registry.ENTITY_TYPE, new Identifier(TavernCore.MOD_ID, "seat"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MISC, SeatEntity::new)
-                    .dimensions(EntityDimensions.fixed(1, 2)).build());
+
+    public static final EntityType<SitEntity> SIT_ENTITY = Registry.register(
+            Registry.ENTITY_TYPE,
+            new Identifier("tavern_core", "sit_entity"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MISC, SitEntity::new).fireImmune().dimensions(EntityDimensions.fixed(0.8f, 0.8f)).build()
+    );
 
 
 }
