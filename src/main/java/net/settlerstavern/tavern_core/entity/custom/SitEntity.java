@@ -67,21 +67,6 @@ public class SitEntity extends PathAwareEntity {
     }
 
     @Override
-    public void tick() {
-        BlockPos pos = this.getBlockPos();
-        int x = pos.getX();
-        int y = pos.getY();
-        int z = pos.getZ();
-
-        for (BlockPos position: BlockPos.iterateOutwards(pos, x, y, z)) {
-            Block block = world.getBlockState(position).getBlock();
-            if (block == Blocks.AIR){
-                this.discard();
-            }
-        }
-    }
-
-    @Override
     public boolean shouldSave() {
         return super.shouldSave();
     }

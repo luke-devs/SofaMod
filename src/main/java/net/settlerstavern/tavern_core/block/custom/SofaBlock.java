@@ -58,28 +58,6 @@ public class SofaBlock extends HorizontalFacingBlock {
         return null;
     }
 
-    @Override
-    public void onPlaced(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
-        if (!world.isClient()){
-            Direction facing = state.get(FACING);
-            SitEntity sitEntity_1 = new SitEntity(ModEntities.SIT_ENTITY, world);
-            SitEntity sitEntity_2 = new SitEntity(ModEntities.SIT_ENTITY, world);
-            sitEntity_1.setSeatPos(pos);
-            switch (facing) {
-                case NORTH:
-                    sitEntity_2.setSeatPos(pos.add(0, 0, - 1D));
-                case SOUTH:
-                    sitEntity_2.setSeatPos(pos.add(1D, 0, 0));
-                case EAST:
-                    sitEntity_2.setSeatPos(pos.add(0, 0,  1D));
-                case WEST:
-                    sitEntity_2.setSeatPos(pos.add(-1D, 0, 0));
-            }
-            world.spawnEntity(sitEntity_1);
-            world.spawnEntity(sitEntity_2);
-            super.onPlaced(world, pos, state, placer, itemStack);
-        }
-    }
 
     @Override
     public BlockState rotate(BlockState state, BlockRotation rotation) {
